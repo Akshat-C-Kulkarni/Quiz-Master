@@ -1,4 +1,4 @@
-# 🧠 QuizMaster
+#  QuizMaster
 
 ![Kotlin](https://img.shields.io/badge/Kotlin-1.9.0-purple?style=for-the-badge&logo=kotlin)
 ![Android](https://img.shields.io/badge/Android-35-green?style=for-the-badge&logo=android)
@@ -10,10 +10,10 @@
 
 ## ✨ Features
 
-- **🎯 Interactive Quizzes**: Challenge yourself with multiple-choice questions across various topics.
-- **📊 Real-time Scoring**: Get instant feedback on your performance after every quiz.
-- **📈 Visual Analytics**: Dive deep into your results with beautiful interactive Pie Charts, powered by [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart).
-- **📱 Modern UI**: A clean and responsive user interface built for Android.
+- **Interactive Quizzes**: Challenge yourself with multiple-choice questions across various topics.
+- **Real-time Scoring**: Get instant feedback on your performance after every quiz.
+- **Visual Analytics**: Dive deep into your results with beautiful interactive Pie Charts, powered by [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart).
+- **Modern UI**: A clean and responsive user interface built for Android.
 
 ## 🛠️ Tech Stack
 
