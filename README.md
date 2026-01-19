@@ -1,36 +1,73 @@
-# QuizMaster
+# 🧠 QuizMaster
 
-QuizMaster is an Android application that allows users to take quizzes and track their performance.
+![Kotlin](https://img.shields.io/badge/Kotlin-1.9.0-purple?style=for-the-badge&logo=kotlin)
+![Android](https://img.shields.io/badge/Android-35-green?style=for-the-badge&logo=android)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
 
-## Features
+**QuizMaster** is an engaging Android application designed to test your knowledge and track your progress with visual analytics.
 
-- **Take Quiz**: Answer multiple-choice questions on various topics.
-- **Score Tracking**: View your score after each quiz.
-- **Visual Analytics**: Analyze your performance with detailed Pie Charts using MPAndroidChart.
+---
 
-## Tech Stack
+## ✨ Features
 
-- **Language**: Kotlin
-- **Platform**: Android
-- **Libraries**:
-    - [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart) for data visualization.
+- **🎯 Interactive Quizzes**: Challenge yourself with multiple-choice questions across various topics.
+- **📊 Real-time Scoring**: Get instant feedback on your performance after every quiz.
+- **📈 Visual Analytics**: Dive deep into your results with beautiful interactive Pie Charts, powered by [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart).
+- **📱 Modern UI**: A clean and responsive user interface built for Android.
 
-## Setup Instructions
+## 🛠️ Tech Stack
 
-1.  **Clone the repository**:
+- **Language**: [Kotlin](https://kotlinlang.org/)
+- **Minimum SDK**: 24 (Android 7.0 Nougat)
+- **Target SDK**: 35 (Android 14)
+- **Architecture**: MVVM (Recommended for scalability)
+- **External Libraries**:
+    - `MPAndroidChart` - For rendering statistical charts.
+
+## 🚀 Getting Started
+
+Follow these steps to get a local copy up and running.
+
+### Prerequisites
+- Android Studio Ladybug or newer.
+- JDK 17 (or as required by your Android Studio version).
+
+### Installation
+
+1.  **Clone the repository**
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/Akshat-C-Kulkarni/Quiz-Master.git
+    cd Quiz-Master
     ```
-2.  **Open in Android Studio**:
+
+2.  **Open in Android Studio**
     - Launch Android Studio.
-    - Select "Open an Existing Project".
-    - Navigate to the cloned directory.
-3.  **Build the Project**:
-    - Allow Gradle to sync and download dependencies.
-4.  **Run the App**:
-    - Connect an Android device or start an Emulator.
-    - Click the **Run** button (green play icon).
+    - Click **Open** and select the `Quiz-Master` folder.
 
-## Screenshots
+3.  **Sync & Build**
+    - Wait for Gradle to sync dependencies.
+    - Click `Build > Make Project` to ensure everything compiles correctly.
 
-<!-- Add screenshots here if available -->
+4.  **Run the App**
+    - Connect an Android device (via USB or Wi-Fi) or start an Android Emulator.
+    - Click the **Run** button (▶️) in the toolbar.
+
+## 🤝 Contributing
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1.  Fork the Project
+2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4.  Push to the Branch (`git push origin feature/AmazingFeature`)
+5.  Open a Pull Request
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## 📞 Contact
+
+**Akshat Kulkarni** - [GitHub Profile](https://github.com/Akshat-C-Kulkarni)
+
+Project Link: [https://github.com/Akshat-C-Kulkarni/Quiz-Master](https://github.com/Akshat-C-Kulkarni/Quiz-Master)
