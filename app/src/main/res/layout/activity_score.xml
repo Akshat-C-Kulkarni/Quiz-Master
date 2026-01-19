@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <!-- Congratulations TextView -->
+    <TextView
+        android:id="@+id/congratulationsTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Congratulations!"
+        android:textSize="22sp"
+        android:textAlignment="center"
+        android:layout_marginBottom="24dp"
+        android:layout_constraintTop_toTopOf="parent"
+        android:layout_constraintStart_toStartOf="parent"
+        android:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Score TextView -->
+    <TextView
+        android:id="@+id/scoreTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Score: "
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:layout_constraintTop_toBottomOf="@id/congratulationsTextView"
+        android:layout_constraintStart_toStartOf="parent"
+        android:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Play Again Button -->
+    <Button
+        android:id="@+id/playAgainButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Play Again"
+        android:textSize="18sp"
+        android:layout_constraintTop_toBottomOf="@id/scoreTextView"
+        android:layout_constraintStart_toStartOf="parent"
+        android:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
